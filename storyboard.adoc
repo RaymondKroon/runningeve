@@ -1,0 +1,81 @@
+= __running__ **eve.**
+Raymond Kroon <raymond@k3n.nl>;Erwin Kroon <erwin@k3n.nl>
+v1.0, 2015-07-18
+
+== Ik kom op __running__ **eve.** en ...
+
+* ik klik het evenement aan of kom binnen via een directe link
+* ik log in of voer informatie in
+* ik betaal via ideal
+
+== Tijdens het aanmelden ...
+* kan ik inloggen of een account aanmaken zonder opnieuw te hoeven beginnen
+* zie ik hoever ik ben in het aanmeldproces
+* ik kan terug en verder naar elke stap zonder informatie opnieuwe in te hoeven voeren
+
+== Als ik onverhoops toch niet kan ...
+
+* kan ik mij afmelden via een registratie mail
+* kan ik mij afmelden in my.runningeve als ik een account heb
+
+== Afmelding types
+
+* Je kunt je afmelden en je krijgt je geld *niet* terug
+* Je kunt je afmelden en je krijgt je geld *wel* terug (evt minus administratiekosten)
+* Je kunt je afmelden en je krijgt je geld *wel* terug, *mits* je een vervanger regelt.
+* Je kunt je afmelden en je mag een vervanger aanmelden. Geld regel je onderling.
+
+== Organisaties willen ...
+
+* Exporteren van aanmeldingen
+* importeren van uitslagen
+* vrije keuze in onderdeel namen. Voor gesponsorde onderdelen bijvoorbeeld
+* onderdelen verdelen in categorieën (man/vrouw, leeftijd, etc)
+* maximum aantal deelnemers vastleggen
+* uiterlijke aanmelding/afmeldings datum vastleggen
+* meerdere onderdelen tegelijk kunnen laten inschrijven
+
+== Evenement informatie
+===== De vuurtorentrail heeft:
+
+. Zaterdag een 10k + 18k
+. Zondag een 35k
+. (optionele?) soep aan de finish
+
+===== Andere evenementen hebben:
+
+. een t-shirt (maat, kosten, ...)
+. eten: aantal + extra kosten
+. snelste tijd
+. extra informatie oa.
+* telefoonnummer in geval van nood
+* hoevaak heb je al meegedaan
+* ben je lid van een vereniging (evt. voor korting)
+. verplichte en niet verplichte velden
+. automatische incasso's
+. groeps klassementen (ik ben kweker en ik wil meedoen aan het ...)
+
+===== En misschien hebben ze:
+
+. Chip nummer registratie
+. startnummer keuze
+
+===== Organisaties willen weten van deelnemers:
+
+. m/v (optioneel?)
+. onderdeel
+. NAW (is dat nodig?)
+. email
+. IBAN bij afschrijvingen
+
+== Technisch
+
+* Github
+* Concourse CI
+* Clojure
+* JSON Web Token
+* Hoplon
+* geteventstore
+* DynamoDB
+* AWS
+* pay.nl

@@ -1,0 +1,10 @@
+@startuml
+
+class Run
+class Distance
+class Athlete
+
+Run <--- Distance
+Distance <--- Athlete
+
+@enduml
