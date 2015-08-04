@@ -75,7 +75,25 @@ v1.0, 2015-07-18
 * Clojure
 * JSON Web Token
 * Hoplon
-* geteventstore
-* DynamoDB
+* The Idead Domain-Driven Design Aggregate Store?
+* RDS Postgresql
 * AWS
 * pay.nl
+* Vault
+* Ansible
+* HTTP/2
+* Pedestal
+* Boot pods single JVM micro service
+
+== Domain
+
+* Accounts
+* Personen / Organisaties / ...
+* Inschrijven
+* Raceday (aanmelden, afmelden, ...)
+* Nazorg
+* Betalingen
+* Facturatie
+* Communicatie
+* Mijn resultaten (sociaal) / uitslagen
+* Evenementen
